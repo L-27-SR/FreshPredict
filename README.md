@@ -1,2 +1,56 @@
+
 # FreshPredict
-**FreshPredict** is an AI-driven model that predicts the shelf life of fruits and vegetables. By analyzing factors like storage conditions and produce type, it accurately estimates how long items will remain fresh. FreshPredict helps reduce food waste, optimize inventory, and improve decision-making for retailers and consumers alike.
+
+**FreshPredict** is an AI-powered tool designed to predict the shelf life of fruits and vegetables. By analyzing storage conditions and produce types, it provides accurate estimates of how long items will remain fresh, helping users reduce food waste and optimize inventory management.
+
+----------
+
+## Features
+
+-   **Predictive Shelf Life Estimation**: Provides accurate freshness durations based on environmental conditions.
+-   **Multi-Factor Analysis**: Factors in storage temperature, humidity, and produce type for better precision.
+-   **Reduce Waste**: Helps avoid food spoilage by providing better planning insights.
+-   **User-Friendly**: Easily adaptable for both consumers and businesses (e.g., retailers, supply chains).
+
+----------
+
+## Installation
+
+1.  **Clone the repository**:
+    
+    bash
+    
+    Copy code
+    
+    `git clone https://github.com/your-username/FreshPredict.git` 
+    
+2.  **Navigate into the directory**:
+    
+    bash
+    
+    Copy code
+    
+    `cd FreshPredict` 
+    
+3.  **Install the dependencies**:
+    
+    bash
+    
+    Copy code
+    
+    `pip install -r requirements.txt` 
+    
+
+----------
+
+----------
+
+## Contributing
+
+We welcome contributions! Please follow these steps:
+
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature-branch`).
+3.  Commit your changes (`git commit -m 'Add new feature'`).
+4.  Push to the branch (`git push origin feature-branch`).
+5.  Create a Pull Request.
