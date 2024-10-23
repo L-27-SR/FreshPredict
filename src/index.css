@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-gray-50 to-indigo-50 min-h-screen font-sans antialiased;
+  }
+}
+
+@layer components {
+  .upload-container {
+    @apply relative border-2 border-dashed border-gray-300 transition-all duration-300 hover:border-indigo-500;
+  }
+  
+  .upload-container::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-br from-indigo-50 to-purple-50 opacity-0 transition-opacity duration-300;
+    z-index: 0;
+  }
+  
+  .upload-container:hover::before {
+    @apply opacity-100;
+  }
+  
+  .upload-container > * {
+    @apply relative z-10;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out forwards;
+}
