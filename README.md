@@ -17,26 +17,16 @@
 ## Installation
 
 1.  **Clone the repository**:
-    
-    bash
-    
-    Copy code
+
     
     `git clone https://github.com/your-username/FreshPredict.git` 
     
 2.  **Navigate into the directory**:
-    
-    bash
-    
-    Copy code
-    
+
     `cd FreshPredict` 
     
 3.  **Install the dependencies**:
-    
-    bash
-    
-    Copy code
+
     
     `pip install -r requirements.txt` 
     
