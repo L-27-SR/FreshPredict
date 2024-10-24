@@ -119,10 +119,10 @@ export default function ImageClassifier() {
     <div className="container mx-auto px-4 py-12 max-w-4xl">
       <div className="text-center mb-12 animate-fade-in">
         <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-indigo-600 via-purple-600 to-blue-600 text-transparent bg-clip-text">
-          Image Classifier
+          Fruits And Vegetables Expiry Estimation
         </h1>
         <p className="text-gray-600 text-lg">
-          Upload an image to classify it using our advanced AI model
+          Upload an image of a fruit or a vegetable to estimate its expiry using our advanced AI model
         </p>
       </div>
 
