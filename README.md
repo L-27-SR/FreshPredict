@@ -13,7 +13,11 @@
 -   **User-Friendly**: Easily adaptable for both consumers and businesses (e.g., retailers, supply chains).
 
 ----------
+## Dataset
 
+- we have procured the images of different fruits from timelapse videos on youtube and other sources to train the model to identify how fresh the fruit uploaded in the picture is
+
+----------
 ## Installation
 
 1.  **Clone the repository**:
@@ -28,7 +32,11 @@
 3.  **Install the dependencies**:
 
     
-    `pip install -r requirements.txt` 
+    `npm install`
+    `npm -d typesvript`
+4. **Running the project**
+
+   `npm run dev` 
     
 
 

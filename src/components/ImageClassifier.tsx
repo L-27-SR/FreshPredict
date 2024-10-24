@@ -6,7 +6,7 @@ interface Prediction {
   probability: number;
 }
 
-const MODEL_URL = "https://teachablemachine.withgoogle.com/models/K7blBiEO9/";
+const MODEL_URL = "https://teachablemachine.withgoogle.com/models/BWdOtEr88/";
 
 export default function ImageClassifier() {
   const [model, setModel] = useState<tmImage.Model | null>(null);
